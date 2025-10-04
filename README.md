@@ -52,10 +52,10 @@ Este projeto não requer dependências externas além de um navegador moderno.
 
 | Ação | Tecla |
 | :--- | :--- |
-| Mover para Cima | **W** ou **Seta para Cima** |
-| Mover para Baixo | **S** ou **Seta para Baixo** |
-| Mover para Esquerda | **A** ou **Seta para Esquerda** |
-| Mover para Direita | **D** ou **Seta para Direita** |
+| Mover para Cima | **W** |
+| Mover para Baixo | **S** |
+| Mover para Esquerda | **A** |
+| Mover para Direita | **D** |
 
 -----
 
@@ -68,6 +68,3 @@ A organização do projeto segue a arquitetura de Orientação a Objetos, com ca
   * `Enemy.js` (ou `Ghost.js`): Lida com o movimento autônomo e o estado de perseguição/fuga.
   * `Boundary.js`: Define as barreiras invisíveis do mapa que controlam o movimento.
   * `Pellet.js`: Representa as bolinhas no mapa e gerencia sua coleta.
-
-
-O foco na **Arquitetura Orientada a Objetos** é o ponto alto deste README, mostrando que você não apenas faz o jogo funcionar, mas o constrói de forma sustentável e organizada.
