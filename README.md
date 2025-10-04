@@ -63,7 +63,7 @@ Este projeto não requer dependências externas além de um navegador moderno.
 
 A organização do projeto segue a arquitetura de Orientação a Objetos, com cada arquivo ou classe lidando com uma responsabilidade única:
 
-  * `index.js` (ou `game.js`): Inicialização do Canvas, *game loop* e gerenciamento das instâncias do jogo.
+  * `index.js`: Inicialização do Canvas, *game loop* e gerenciamento das instâncias do jogo.
   * `Player.js`: Lida com o input do usuário, movimento e estados do Pac-Man.
   * `Ghost.js`: Lida com o movimento autônomo e o estado de perseguição/fuga.
   * `Boundary.js`: Define as barreiras invisíveis do mapa que controlam o movimento.
