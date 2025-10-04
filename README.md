@@ -65,6 +65,6 @@ A organização do projeto segue a arquitetura de Orientação a Objetos, com ca
 
   * `index.js` (ou `game.js`): Inicialização do Canvas, *game loop* e gerenciamento das instâncias do jogo.
   * `Player.js`: Lida com o input do usuário, movimento e estados do Pac-Man.
-  * `Enemy.js` (ou `Ghost.js`): Lida com o movimento autônomo e o estado de perseguição/fuga.
+  * `Ghost.js`: Lida com o movimento autônomo e o estado de perseguição/fuga.
   * `Boundary.js`: Define as barreiras invisíveis do mapa que controlam o movimento.
   * `Pellet.js`: Representa as bolinhas no mapa e gerencia sua coleta.
